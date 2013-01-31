@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22BEE813C75B48408BFA919D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 590E070F4A684548B3FB8592 /* libPods.a */; };
+		A0F19CB616BADBD000ACE20A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F19CB516BADBD000ACE20A /* UIKit.framework */; };
+		A0F19CB816BADBD000ACE20A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F19CB716BADBD000ACE20A /* Foundation.framework */; };
+		A0F19CBA16BADBD000ACE20A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F19CB916BADBD000ACE20A /* CoreGraphics.framework */; };
+		A0F19CC016BADBD000ACE20A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0F19CBE16BADBD000ACE20A /* InfoPlist.strings */; };
+		A0F19CC216BADBD000ACE20A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CC116BADBD000ACE20A /* main.m */; };
+		A0F19CC616BADBD000ACE20A /* BEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CC516BADBD000ACE20A /* BEAppDelegate.m */; };
+		A0F19CC816BADBD000ACE20A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F19CC716BADBD000ACE20A /* Default.png */; };
+		A0F19CCA16BADBD000ACE20A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F19CC916BADBD000ACE20A /* Default@2x.png */; };
+		A0F19CCC16BADBD000ACE20A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F19CCB16BADBD000ACE20A /* Default-568h@2x.png */; };
+		A0F19D0A16BADD7500ACE20A /* CatelogBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CD416BADD7500ACE20A /* CatelogBoard.m */; };
+		A0F19D0B16BADD7500ACE20A /* DribbbleBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CD616BADD7500ACE20A /* DribbbleBoard.m */; };
+		A0F19D0C16BADD7500ACE20A /* DribbbleController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CD816BADD7500ACE20A /* DribbbleController.mm */; };
+		A0F19D0D16BADD7500ACE20A /* DribbbleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CDA16BADD7500ACE20A /* DribbbleModel.m */; };
+		A0F19D0E16BADD7500ACE20A /* DribbblePhotoBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CDC16BADD7500ACE20A /* DribbblePhotoBoard.m */; };
+		A0F19D0F16BADD7500ACE20A /* Lesson10Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CDF16BADD7500ACE20A /* Lesson10Board.m */; };
+		A0F19D1016BADD7500ACE20A /* Lesson10Model.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CE116BADD7500ACE20A /* Lesson10Model.m */; };
+		A0F19D1116BADD7500ACE20A /* Lesson11Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CE316BADD7500ACE20A /* Lesson11Board.m */; };
+		A0F19D1216BADD7500ACE20A /* Lesson11Model.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CE516BADD7500ACE20A /* Lesson11Model.m */; };
+		A0F19D1316BADD7500ACE20A /* Lesson1Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CE716BADD7500ACE20A /* Lesson1Board.m */; };
+		A0F19D1416BADD7500ACE20A /* Lesson2Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CE916BADD7500ACE20A /* Lesson2Board.m */; };
+		A0F19D1516BADD7500ACE20A /* Lesson3Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CEB16BADD7500ACE20A /* Lesson3Board.m */; };
+		A0F19D1616BADD7500ACE20A /* Lesson4Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CED16BADD7500ACE20A /* Lesson4Board.m */; };
+		A0F19D1716BADD7500ACE20A /* Lesson5Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CEF16BADD7500ACE20A /* Lesson5Board.m */; };
+		A0F19D1816BADD7500ACE20A /* Lesson6Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CF116BADD7500ACE20A /* Lesson6Board.m */; };
+		A0F19D1916BADD7500ACE20A /* Lesson7_1Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CF316BADD7500ACE20A /* Lesson7_1Board.m */; };
+		A0F19D1A16BADD7500ACE20A /* Lesson7_2Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CF516BADD7500ACE20A /* Lesson7_2Board.m */; };
+		A0F19D1B16BADD7500ACE20A /* Lesson7_3Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CF716BADD7500ACE20A /* Lesson7_3Board.m */; };
+		A0F19D1C16BADD7500ACE20A /* Lesson7_4Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CF916BADD7500ACE20A /* Lesson7_4Board.m */; };
+		A0F19D1D16BADD7500ACE20A /* Lesson7_5Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CFB16BADD7500ACE20A /* Lesson7_5Board.m */; };
+		A0F19D1E16BADD7500ACE20A /* Lesson7_7Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CFD16BADD7500ACE20A /* Lesson7_7Board.m */; };
+		A0F19D1F16BADD7500ACE20A /* Lesson7Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19CFF16BADD7500ACE20A /* Lesson7Board.m */; };
+		A0F19D2016BADD7500ACE20A /* Lesson8Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19D0116BADD7500ACE20A /* Lesson8Board.m */; };
+		A0F19D2116BADD7500ACE20A /* Lesson9Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19D0316BADD7500ACE20A /* Lesson9Board.m */; };
+		A0F19D2216BADD7500ACE20A /* Lesson9Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19D0516BADD7500ACE20A /* Lesson9Controller.m */; };
+		A0F19D2316BADD7500ACE20A /* LessonBaseBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19D0716BADD7500ACE20A /* LessonBaseBoard.m */; };
+		A0F19D2416BADD7500ACE20A /* WebViewBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F19D0916BADD7500ACE20A /* WebViewBoard.m */; };
+		A0F19D2B16BADF1A00ACE20A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F19D2916BADF1A00ACE20A /* Icon.png */; };
+		A0F19D2C16BADF1A00ACE20A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F19D2A16BADF1A00ACE20A /* Icon@2x.png */; };
+		A0F19D3316BADF8000ACE20A /* Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F19D3116BADF8000ACE20A /* Icon@2x~ipad.png */; };
+		A0F19D3416BADF8000ACE20A /* Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F19D3216BADF8000ACE20A /* Icon~ipad.png */; };
+		A0F925D416BAE0E000D1943B /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F925D216BAE0E000D1943B /* Default-Portrait@2x~ipad.png */; };
+		A0F925D516BAE0E000D1943B /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F925D316BAE0E000D1943B /* Default-Portrait~ipad.png */; };
+		A0F925DA16BAE20800D1943B /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F925D816BAE20800D1943B /* Default-Landscape@2x~ipad.png */; };
+		A0F925DB16BAE20800D1943B /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F925D916BAE20800D1943B /* Default-Landscape~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		590E070F4A684548B3FB8592 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E642538304469F90EC30C6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		A0F19CB516BADBD000ACE20A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A0F19CB716BADBD000ACE20A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0F19CB916BADBD000ACE20A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0F19CBD16BADBD000ACE20A /* BeeFrameworkExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeeFrameworkExample-Info.plist"; sourceTree = "<group>"; };
+		A0F19CBF16BADBD000ACE20A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0F19CC116BADBD000ACE20A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0F19CC316BADBD000ACE20A /* BeeFrameworkExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeeFrameworkExample-Prefix.pch"; sourceTree = "<group>"; };
+		A0F19CC416BADBD000ACE20A /* BEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEAppDelegate.h; sourceTree = "<group>"; };
+		A0F19CC516BADBD000ACE20A /* BEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEAppDelegate.m; sourceTree = "<group>"; };
+		A0F19CC716BADBD000ACE20A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A0F19CC916BADBD000ACE20A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A0F19CCB16BADBD000ACE20A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A0F19CD316BADD7500ACE20A /* CatelogBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatelogBoard.h; sourceTree = "<group>"; };
+		A0F19CD416BADD7500ACE20A /* CatelogBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatelogBoard.m; sourceTree = "<group>"; };
+		A0F19CD516BADD7500ACE20A /* DribbbleBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DribbbleBoard.h; sourceTree = "<group>"; };
+		A0F19CD616BADD7500ACE20A /* DribbbleBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DribbbleBoard.m; sourceTree = "<group>"; };
+		A0F19CD716BADD7500ACE20A /* DribbbleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DribbbleController.h; sourceTree = "<group>"; };
+		A0F19CD816BADD7500ACE20A /* DribbbleController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DribbbleController.mm; sourceTree = "<group>"; };
+		A0F19CD916BADD7500ACE20A /* DribbbleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DribbbleModel.h; sourceTree = "<group>"; };
+		A0F19CDA16BADD7500ACE20A /* DribbbleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DribbbleModel.m; sourceTree = "<group>"; };
+		A0F19CDB16BADD7500ACE20A /* DribbblePhotoBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DribbblePhotoBoard.h; sourceTree = "<group>"; };
+		A0F19CDC16BADD7500ACE20A /* DribbblePhotoBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DribbblePhotoBoard.m; sourceTree = "<group>"; };
+		A0F19CDE16BADD7500ACE20A /* Lesson10Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson10Board.h; sourceTree = "<group>"; };
+		A0F19CDF16BADD7500ACE20A /* Lesson10Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson10Board.m; sourceTree = "<group>"; };
+		A0F19CE016BADD7500ACE20A /* Lesson10Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson10Model.h; sourceTree = "<group>"; };
+		A0F19CE116BADD7500ACE20A /* Lesson10Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson10Model.m; sourceTree = "<group>"; };
+		A0F19CE216BADD7500ACE20A /* Lesson11Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson11Board.h; sourceTree = "<group>"; };
+		A0F19CE316BADD7500ACE20A /* Lesson11Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson11Board.m; sourceTree = "<group>"; };
+		A0F19CE416BADD7500ACE20A /* Lesson11Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson11Model.h; sourceTree = "<group>"; };
+		A0F19CE516BADD7500ACE20A /* Lesson11Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson11Model.m; sourceTree = "<group>"; };
+		A0F19CE616BADD7500ACE20A /* Lesson1Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson1Board.h; sourceTree = "<group>"; };
+		A0F19CE716BADD7500ACE20A /* Lesson1Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson1Board.m; sourceTree = "<group>"; };
+		A0F19CE816BADD7500ACE20A /* Lesson2Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson2Board.h; sourceTree = "<group>"; };
+		A0F19CE916BADD7500ACE20A /* Lesson2Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson2Board.m; sourceTree = "<group>"; };
+		A0F19CEA16BADD7500ACE20A /* Lesson3Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson3Board.h; sourceTree = "<group>"; };
+		A0F19CEB16BADD7500ACE20A /* Lesson3Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson3Board.m; sourceTree = "<group>"; };
+		A0F19CEC16BADD7500ACE20A /* Lesson4Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson4Board.h; sourceTree = "<group>"; };
+		A0F19CED16BADD7500ACE20A /* Lesson4Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson4Board.m; sourceTree = "<group>"; };
+		A0F19CEE16BADD7500ACE20A /* Lesson5Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson5Board.h; sourceTree = "<group>"; };
+		A0F19CEF16BADD7500ACE20A /* Lesson5Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson5Board.m; sourceTree = "<group>"; };
+		A0F19CF016BADD7500ACE20A /* Lesson6Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson6Board.h; sourceTree = "<group>"; };
+		A0F19CF116BADD7500ACE20A /* Lesson6Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson6Board.m; sourceTree = "<group>"; };
+		A0F19CF216BADD7500ACE20A /* Lesson7_1Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson7_1Board.h; sourceTree = "<group>"; };
+		A0F19CF316BADD7500ACE20A /* Lesson7_1Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson7_1Board.m; sourceTree = "<group>"; };
+		A0F19CF416BADD7500ACE20A /* Lesson7_2Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson7_2Board.h; sourceTree = "<group>"; };
+		A0F19CF516BADD7500ACE20A /* Lesson7_2Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson7_2Board.m; sourceTree = "<group>"; };
+		A0F19CF616BADD7500ACE20A /* Lesson7_3Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson7_3Board.h; sourceTree = "<group>"; };
+		A0F19CF716BADD7500ACE20A /* Lesson7_3Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson7_3Board.m; sourceTree = "<group>"; };
+		A0F19CF816BADD7500ACE20A /* Lesson7_4Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson7_4Board.h; sourceTree = "<group>"; };
+		A0F19CF916BADD7500ACE20A /* Lesson7_4Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson7_4Board.m; sourceTree = "<group>"; };
+		A0F19CFA16BADD7500ACE20A /* Lesson7_5Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson7_5Board.h; sourceTree = "<group>"; };
+		A0F19CFB16BADD7500ACE20A /* Lesson7_5Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson7_5Board.m; sourceTree = "<group>"; };
+		A0F19CFC16BADD7500ACE20A /* Lesson7_7Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson7_7Board.h; sourceTree = "<group>"; };
+		A0F19CFD16BADD7500ACE20A /* Lesson7_7Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson7_7Board.m; sourceTree = "<group>"; };
+		A0F19CFE16BADD7500ACE20A /* Lesson7Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson7Board.h; sourceTree = "<group>"; };
+		A0F19CFF16BADD7500ACE20A /* Lesson7Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson7Board.m; sourceTree = "<group>"; };
+		A0F19D0016BADD7500ACE20A /* Lesson8Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson8Board.h; sourceTree = "<group>"; };
+		A0F19D0116BADD7500ACE20A /* Lesson8Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson8Board.m; sourceTree = "<group>"; };
+		A0F19D0216BADD7500ACE20A /* Lesson9Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson9Board.h; sourceTree = "<group>"; };
+		A0F19D0316BADD7500ACE20A /* Lesson9Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson9Board.m; sourceTree = "<group>"; };
+		A0F19D0416BADD7500ACE20A /* Lesson9Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson9Controller.h; sourceTree = "<group>"; };
+		A0F19D0516BADD7500ACE20A /* Lesson9Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson9Controller.m; sourceTree = "<group>"; };
+		A0F19D0616BADD7500ACE20A /* LessonBaseBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonBaseBoard.h; sourceTree = "<group>"; };
+		A0F19D0716BADD7500ACE20A /* LessonBaseBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonBaseBoard.m; sourceTree = "<group>"; };
+		A0F19D0816BADD7500ACE20A /* WebViewBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewBoard.h; sourceTree = "<group>"; };
+		A0F19D0916BADD7500ACE20A /* WebViewBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewBoard.m; sourceTree = "<group>"; };
+		A0F19D2916BADF1A00ACE20A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A0F19D2A16BADF1A00ACE20A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A0F19D3116BADF8000ACE20A /* Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		A0F19D3216BADF8000ACE20A /* Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~ipad.png"; sourceTree = "<group>"; };
+		A0F925CD16BADF9B00D1943B /* BeeFrameworkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeFrameworkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F925D216BAE0E000D1943B /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		A0F925D316BAE0E000D1943B /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		A0F925D816BAE20800D1943B /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		A0F925D916BAE20800D1943B /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0F19CAF16BADBD000ACE20A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F19CB616BADBD000ACE20A /* UIKit.framework in Frameworks */,
+				A0F19CB816BADBD000ACE20A /* Foundation.framework in Frameworks */,
+				A0F19CBA16BADBD000ACE20A /* CoreGraphics.framework in Frameworks */,
+				22BEE813C75B48408BFA919D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0F19CA916BADBD000ACE20A = {
+			isa = PBXGroup;
+			children = (
+				A0F19CBB16BADBD000ACE20A /* BeeFrameworkExample */,
+				A0F19CB416BADBD000ACE20A /* Frameworks */,
+				60E642538304469F90EC30C6 /* Pods.xcconfig */,
+				A0F925CD16BADF9B00D1943B /* BeeFrameworkExample.app */,
+			);
+			sourceTree = "<group>";
+		};
+		A0F19CB416BADBD000ACE20A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0F19CB516BADBD000ACE20A /* UIKit.framework */,
+				A0F19CB716BADBD000ACE20A /* Foundation.framework */,
+				A0F19CB916BADBD000ACE20A /* CoreGraphics.framework */,
+				590E070F4A684548B3FB8592 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0F19CBB16BADBD000ACE20A /* BeeFrameworkExample */ = {
+			isa = PBXGroup;
+			children = (
+				A0F19CD216BADD7500ACE20A /* Lessons */,
+				A0F19CC416BADBD000ACE20A /* BEAppDelegate.h */,
+				A0F19CC516BADBD000ACE20A /* BEAppDelegate.m */,
+				A0F19CBC16BADBD000ACE20A /* Supporting Files */,
+			);
+			path = BeeFrameworkExample;
+			sourceTree = "<group>";
+		};
+		A0F19CBC16BADBD000ACE20A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0F19CBD16BADBD000ACE20A /* BeeFrameworkExample-Info.plist */,
+				A0F19CBE16BADBD000ACE20A /* InfoPlist.strings */,
+				A0F19CC116BADBD000ACE20A /* main.m */,
+				A0F19CC316BADBD000ACE20A /* BeeFrameworkExample-Prefix.pch */,
+				A0F19D2916BADF1A00ACE20A /* Icon.png */,
+				A0F19D2A16BADF1A00ACE20A /* Icon@2x.png */,
+				A0F19D3116BADF8000ACE20A /* Icon@2x~ipad.png */,
+				A0F19D3216BADF8000ACE20A /* Icon~ipad.png */,
+				A0F19CC716BADBD000ACE20A /* Default.png */,
+				A0F19CC916BADBD000ACE20A /* Default@2x.png */,
+				A0F925D216BAE0E000D1943B /* Default-Portrait@2x~ipad.png */,
+				A0F925D316BAE0E000D1943B /* Default-Portrait~ipad.png */,
+				A0F925D816BAE20800D1943B /* Default-Landscape@2x~ipad.png */,
+				A0F925D916BAE20800D1943B /* Default-Landscape~ipad.png */,
+				A0F19CCB16BADBD000ACE20A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0F19CD216BADD7500ACE20A /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				A0F19CD316BADD7500ACE20A /* CatelogBoard.h */,
+				A0F19CD416BADD7500ACE20A /* CatelogBoard.m */,
+				A0F19CD516BADD7500ACE20A /* DribbbleBoard.h */,
+				A0F19CD616BADD7500ACE20A /* DribbbleBoard.m */,
+				A0F19CD716BADD7500ACE20A /* DribbbleController.h */,
+				A0F19CD816BADD7500ACE20A /* DribbbleController.mm */,
+				A0F19CD916BADD7500ACE20A /* DribbbleModel.h */,
+				A0F19CDA16BADD7500ACE20A /* DribbbleModel.m */,
+				A0F19CDB16BADD7500ACE20A /* DribbblePhotoBoard.h */,
+				A0F19CDC16BADD7500ACE20A /* DribbblePhotoBoard.m */,
+				A0F19CE616BADD7500ACE20A /* Lesson1Board.h */,
+				A0F19CE716BADD7500ACE20A /* Lesson1Board.m */,
+				A0F19CE816BADD7500ACE20A /* Lesson2Board.h */,
+				A0F19CE916BADD7500ACE20A /* Lesson2Board.m */,
+				A0F19CEA16BADD7500ACE20A /* Lesson3Board.h */,
+				A0F19CEB16BADD7500ACE20A /* Lesson3Board.m */,
+				A0F19CEC16BADD7500ACE20A /* Lesson4Board.h */,
+				A0F19CED16BADD7500ACE20A /* Lesson4Board.m */,
+				A0F19CEE16BADD7500ACE20A /* Lesson5Board.h */,
+				A0F19CEF16BADD7500ACE20A /* Lesson5Board.m */,
+				A0F19CF016BADD7500ACE20A /* Lesson6Board.h */,
+				A0F19CF116BADD7500ACE20A /* Lesson6Board.m */,
+				A0F19CF216BADD7500ACE20A /* Lesson7_1Board.h */,
+				A0F19CF316BADD7500ACE20A /* Lesson7_1Board.m */,
+				A0F19CF416BADD7500ACE20A /* Lesson7_2Board.h */,
+				A0F19CF516BADD7500ACE20A /* Lesson7_2Board.m */,
+				A0F19CF616BADD7500ACE20A /* Lesson7_3Board.h */,
+				A0F19CF716BADD7500ACE20A /* Lesson7_3Board.m */,
+				A0F19CF816BADD7500ACE20A /* Lesson7_4Board.h */,
+				A0F19CF916BADD7500ACE20A /* Lesson7_4Board.m */,
+				A0F19CFA16BADD7500ACE20A /* Lesson7_5Board.h */,
+				A0F19CFB16BADD7500ACE20A /* Lesson7_5Board.m */,
+				A0F19CFC16BADD7500ACE20A /* Lesson7_7Board.h */,
+				A0F19CFD16BADD7500ACE20A /* Lesson7_7Board.m */,
+				A0F19CFE16BADD7500ACE20A /* Lesson7Board.h */,
+				A0F19CFF16BADD7500ACE20A /* Lesson7Board.m */,
+				A0F19D0016BADD7500ACE20A /* Lesson8Board.h */,
+				A0F19D0116BADD7500ACE20A /* Lesson8Board.m */,
+				A0F19D0216BADD7500ACE20A /* Lesson9Board.h */,
+				A0F19D0316BADD7500ACE20A /* Lesson9Board.m */,
+				A0F19D0416BADD7500ACE20A /* Lesson9Controller.h */,
+				A0F19D0516BADD7500ACE20A /* Lesson9Controller.m */,
+				A0F19CDE16BADD7500ACE20A /* Lesson10Board.h */,
+				A0F19CDF16BADD7500ACE20A /* Lesson10Board.m */,
+				A0F19CE016BADD7500ACE20A /* Lesson10Model.h */,
+				A0F19CE116BADD7500ACE20A /* Lesson10Model.m */,
+				A0F19CE216BADD7500ACE20A /* Lesson11Board.h */,
+				A0F19CE316BADD7500ACE20A /* Lesson11Board.m */,
+				A0F19CE416BADD7500ACE20A /* Lesson11Model.h */,
+				A0F19CE516BADD7500ACE20A /* Lesson11Model.m */,
+				A0F19D0616BADD7500ACE20A /* LessonBaseBoard.h */,
+				A0F19D0716BADD7500ACE20A /* LessonBaseBoard.m */,
+				A0F19D0816BADD7500ACE20A /* WebViewBoard.h */,
+				A0F19D0916BADD7500ACE20A /* WebViewBoard.m */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0F19CB116BADBD000ACE20A /* BeeFrameworkExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F19CCF16BADBD000ACE20A /* Build configuration list for PBXNativeTarget "BeeFrameworkExample" */;
+			buildPhases = (
+				A0F19CAE16BADBD000ACE20A /* Sources */,
+				A0F19CAF16BADBD000ACE20A /* Frameworks */,
+				A0F19CB016BADBD000ACE20A /* Resources */,
+				09B1329B650B44FB9AA611CB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeFrameworkExample;
+			productName = BeeFrameworkExample;
+			productReference = A0F925CD16BADF9B00D1943B /* BeeFrameworkExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0F19CAA16BADBD000ACE20A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BE;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = stcui.me;
+			};
+			buildConfigurationList = A0F19CAD16BADBD000ACE20A /* Build configuration list for PBXProject "BeeFrameworkExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0F19CA916BADBD000ACE20A;
+			productRefGroup = A0F19CA916BADBD000ACE20A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0F19CB116BADBD000ACE20A /* BeeFrameworkExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0F19CB016BADBD000ACE20A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F19CC016BADBD000ACE20A /* InfoPlist.strings in Resources */,
+				A0F19CC816BADBD000ACE20A /* Default.png in Resources */,
+				A0F19CCA16BADBD000ACE20A /* Default@2x.png in Resources */,
+				A0F19CCC16BADBD000ACE20A /* Default-568h@2x.png in Resources */,
+				A0F19D2B16BADF1A00ACE20A /* Icon.png in Resources */,
+				A0F19D2C16BADF1A00ACE20A /* Icon@2x.png in Resources */,
+				A0F19D3316BADF8000ACE20A /* Icon@2x~ipad.png in Resources */,
+				A0F19D3416BADF8000ACE20A /* Icon~ipad.png in Resources */,
+				A0F925D416BAE0E000D1943B /* Default-Portrait@2x~ipad.png in Resources */,
+				A0F925D516BAE0E000D1943B /* Default-Portrait~ipad.png in Resources */,
+				A0F925DA16BAE20800D1943B /* Default-Landscape@2x~ipad.png in Resources */,
+				A0F925DB16BAE20800D1943B /* Default-Landscape~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09B1329B650B44FB9AA611CB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0F19CAE16BADBD000ACE20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F19CC216BADBD000ACE20A /* main.m in Sources */,
+				A0F19CC616BADBD000ACE20A /* BEAppDelegate.m in Sources */,
+				A0F19D0A16BADD7500ACE20A /* CatelogBoard.m in Sources */,
+				A0F19D0B16BADD7500ACE20A /* DribbbleBoard.m in Sources */,
+				A0F19D0C16BADD7500ACE20A /* DribbbleController.mm in Sources */,
+				A0F19D0D16BADD7500ACE20A /* DribbbleModel.m in Sources */,
+				A0F19D0E16BADD7500ACE20A /* DribbblePhotoBoard.m in Sources */,
+				A0F19D0F16BADD7500ACE20A /* Lesson10Board.m in Sources */,
+				A0F19D1016BADD7500ACE20A /* Lesson10Model.m in Sources */,
+				A0F19D1116BADD7500ACE20A /* Lesson11Board.m in Sources */,
+				A0F19D1216BADD7500ACE20A /* Lesson11Model.m in Sources */,
+				A0F19D1316BADD7500ACE20A /* Lesson1Board.m in Sources */,
+				A0F19D1416BADD7500ACE20A /* Lesson2Board.m in Sources */,
+				A0F19D1516BADD7500ACE20A /* Lesson3Board.m in Sources */,
+				A0F19D1616BADD7500ACE20A /* Lesson4Board.m in Sources */,
+				A0F19D1716BADD7500ACE20A /* Lesson5Board.m in Sources */,
+				A0F19D1816BADD7500ACE20A /* Lesson6Board.m in Sources */,
+				A0F19D1916BADD7500ACE20A /* Lesson7_1Board.m in Sources */,
+				A0F19D1A16BADD7500ACE20A /* Lesson7_2Board.m in Sources */,
+				A0F19D1B16BADD7500ACE20A /* Lesson7_3Board.m in Sources */,
+				A0F19D1C16BADD7500ACE20A /* Lesson7_4Board.m in Sources */,
+				A0F19D1D16BADD7500ACE20A /* Lesson7_5Board.m in Sources */,
+				A0F19D1E16BADD7500ACE20A /* Lesson7_7Board.m in Sources */,
+				A0F19D1F16BADD7500ACE20A /* Lesson7Board.m in Sources */,
+				A0F19D2016BADD7500ACE20A /* Lesson8Board.m in Sources */,
+				A0F19D2116BADD7500ACE20A /* Lesson9Board.m in Sources */,
+				A0F19D2216BADD7500ACE20A /* Lesson9Controller.m in Sources */,
+				A0F19D2316BADD7500ACE20A /* LessonBaseBoard.m in Sources */,
+				A0F19D2416BADD7500ACE20A /* WebViewBoard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0F19CBE16BADBD000ACE20A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0F19CBF16BADBD000ACE20A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0F19CCD16BADBD000ACE20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0F19CCE16BADBD000ACE20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0F19CD016BADBD000ACE20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E642538304469F90EC30C6 /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeeFrameworkExample/BeeFrameworkExample-Prefix.pch";
+				INFOPLIST_FILE = "BeeFrameworkExample/BeeFrameworkExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0F19CD116BADBD000ACE20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E642538304469F90EC30C6 /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeeFrameworkExample/BeeFrameworkExample-Prefix.pch";
+				INFOPLIST_FILE = "BeeFrameworkExample/BeeFrameworkExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0F19CAD16BADBD000ACE20A /* Build configuration list for PBXProject "BeeFrameworkExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F19CCD16BADBD000ACE20A /* Debug */,
+				A0F19CCE16BADBD000ACE20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F19CCF16BADBD000ACE20A /* Build configuration list for PBXNativeTarget "BeeFrameworkExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F19CD016BADBD000ACE20A /* Debug */,
+				A0F19CD116BADBD000ACE20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0F19CAA16BADBD000ACE20A /* Project object */;
+}
