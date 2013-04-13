@@ -13,6 +13,6 @@
 	BeeUIZoomView *		_zoomView;
 }
 
-@property (nonatomic, strong) NSDictionary *	feed;
+@property (nonatomic, retain) NSDictionary *	feed;
 
 @end

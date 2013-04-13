@@ -18,6 +18,8 @@
 
 - (void)unload
 {
+	_date = nil;
+	_text = nil;
 	
 	[super unload];
 }

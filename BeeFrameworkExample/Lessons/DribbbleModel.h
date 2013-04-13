@@ -15,10 +15,10 @@
 	NSMutableArray *	_shots;
 }
 
-@property (nonatomic, strong) NSString *		category;
+@property (nonatomic, retain) NSString *		category;
 @property (nonatomic, assign) NSInteger			perPage;
 @property (nonatomic, assign) NSInteger			total;
-@property (nonatomic, strong) NSMutableArray *	shots;
+@property (nonatomic, retain) NSMutableArray *	shots;
 
 - (void)loadCache;
 - (void)saveCache;

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		22BEE813C75B48408BFA919D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 590E070F4A684548B3FB8592 /* libPods.a */; };
+		A08709AD1719B3FB002740C1 /* Lesson12Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A08709A71719B3FB002740C1 /* Lesson12Board.m */; };
+		A08709AE1719B3FB002740C1 /* Lesson13Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A08709A91719B3FB002740C1 /* Lesson13Board.m */; };
+		A08709AF1719B3FB002740C1 /* Lesson13Board.xml in Resources */ = {isa = PBXBuildFile; fileRef = A08709AA1719B3FB002740C1 /* Lesson13Board.xml */; };
+		A08709B01719B3FB002740C1 /* Lesson14Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A08709AC1719B3FB002740C1 /* Lesson14Board.m */; };
 		A0F19CB616BADBD000ACE20A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F19CB516BADBD000ACE20A /* UIKit.framework */; };
 		A0F19CB816BADBD000ACE20A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F19CB716BADBD000ACE20A /* Foundation.framework */; };
 		A0F19CBA16BADBD000ACE20A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F19CB916BADBD000ACE20A /* CoreGraphics.framework */; };
@@ -57,6 +61,13 @@
 /* Begin PBXFileReference section */
 		590E070F4A684548B3FB8592 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E642538304469F90EC30C6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		A08709A61719B3FA002740C1 /* Lesson12Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson12Board.h; sourceTree = "<group>"; };
+		A08709A71719B3FB002740C1 /* Lesson12Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson12Board.m; sourceTree = "<group>"; };
+		A08709A81719B3FB002740C1 /* Lesson13Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson13Board.h; sourceTree = "<group>"; };
+		A08709A91719B3FB002740C1 /* Lesson13Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson13Board.m; sourceTree = "<group>"; };
+		A08709AA1719B3FB002740C1 /* Lesson13Board.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Lesson13Board.xml; sourceTree = "<group>"; };
+		A08709AB1719B3FB002740C1 /* Lesson14Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson14Board.h; sourceTree = "<group>"; };
+		A08709AC1719B3FB002740C1 /* Lesson14Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson14Board.m; sourceTree = "<group>"; };
 		A0F19CB516BADBD000ACE20A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A0F19CB716BADBD000ACE20A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A0F19CB916BADBD000ACE20A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -206,6 +217,13 @@
 		A0F19CD216BADD7500ACE20A /* Lessons */ = {
 			isa = PBXGroup;
 			children = (
+				A08709A61719B3FA002740C1 /* Lesson12Board.h */,
+				A08709A71719B3FB002740C1 /* Lesson12Board.m */,
+				A08709A81719B3FB002740C1 /* Lesson13Board.h */,
+				A08709A91719B3FB002740C1 /* Lesson13Board.m */,
+				A08709AA1719B3FB002740C1 /* Lesson13Board.xml */,
+				A08709AB1719B3FB002740C1 /* Lesson14Board.h */,
+				A08709AC1719B3FB002740C1 /* Lesson14Board.m */,
 				A0F19CD316BADD7500ACE20A /* CatelogBoard.h */,
 				A0F19CD416BADD7500ACE20A /* CatelogBoard.m */,
 				A0F19CD516BADD7500ACE20A /* DribbbleBoard.h */,
@@ -329,6 +347,7 @@
 				A0F925D516BAE0E000D1943B /* Default-Portrait~ipad.png in Resources */,
 				A0F925DA16BAE20800D1943B /* Default-Landscape@2x~ipad.png in Resources */,
 				A0F925DB16BAE20800D1943B /* Default-Landscape~ipad.png in Resources */,
+				A08709AF1719B3FB002740C1 /* Lesson13Board.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +404,9 @@
 				A0F19D2216BADD7500ACE20A /* Lesson9Controller.m in Sources */,
 				A0F19D2316BADD7500ACE20A /* LessonBaseBoard.m in Sources */,
 				A0F19D2416BADD7500ACE20A /* WebViewBoard.m in Sources */,
+				A08709AD1719B3FB002740C1 /* Lesson12Board.m in Sources */,
+				A08709AE1719B3FB002740C1 /* Lesson13Board.m in Sources */,
+				A08709B01719B3FB002740C1 /* Lesson14Board.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

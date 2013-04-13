@@ -92,6 +92,7 @@ DEF_SINGLETON( Lesson6Board );
 - (void)unload
 {
 	[_datas removeAllObjects];
+	_datas = nil;
 	
 	[super unload];
 }

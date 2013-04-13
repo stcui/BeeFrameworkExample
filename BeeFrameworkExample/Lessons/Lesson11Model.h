@@ -13,8 +13,8 @@
 	NSString *	_url;
 }
 
-@property (nonatomic, strong) NSNumber *	rid;
-@property (nonatomic, strong) NSString *	name;
-@property (nonatomic, strong) NSString *	url;
+@property (nonatomic, retain) NSNumber *	rid;
+@property (nonatomic, retain) NSString *	name;
+@property (nonatomic, retain) NSString *	url;
 
 @end

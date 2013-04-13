@@ -12,8 +12,8 @@
 	NSString *	_text;
 }
 
-@property (nonatomic, strong) NSDate *		date;
-@property (nonatomic, strong) NSString *	text;
+@property (nonatomic, retain) NSDate *		date;
+@property (nonatomic, retain) NSString *	text;
 
 - (void)loadCache;
 - (void)saveCache;

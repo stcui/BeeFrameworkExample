@@ -9,8 +9,8 @@
 #import "BEAppDelegate.h"
 #import "CatelogBoard.h"
 #import "DribbbleController.h"
-
 #import "Bee_Debug.h"
+#import "Bee_UnitTest.h"
 
 @implementation BEAppDelegate
 

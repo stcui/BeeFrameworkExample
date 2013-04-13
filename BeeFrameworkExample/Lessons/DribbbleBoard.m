@@ -147,6 +147,9 @@
 
 - (void)unload
 {
+	_debutsModel = nil;
+	_popularModel = nil;
+	_everyoneModel = nil;
 
 	[super unload];
 }

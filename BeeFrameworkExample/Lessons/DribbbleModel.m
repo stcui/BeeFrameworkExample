@@ -47,6 +47,7 @@
 	[_shots removeAllObjects];
 	_shots = nil;
 	
+	_category = nil;
 	
 	[super unload];
 }
