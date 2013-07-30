@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'BeeFrameworkExample' target in the 'BeeFrameworkExample' project
+// Prefix header for all source files of the 'example' target in the 'example' project
 //
 
 #import <Availability.h>
@@ -9,7 +9,9 @@
 #endif
 
 #ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
-    #import "Bee.h"
+	#import <UIKit/UIKit.h>
+	#import <Foundation/Foundation.h>
 #endif
+
+#undef	NSLog
+#define	NSLog	BeeLog

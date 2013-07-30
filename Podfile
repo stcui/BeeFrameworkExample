@@ -1,2 +1,2 @@
 platform :ios
-pod 'BeeFramework', :head
+pod 'BeeFramework'
